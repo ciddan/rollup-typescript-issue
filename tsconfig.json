@@ -1,0 +1,15 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "system",
+        "moduleResolution": "node",
+		"outDir": "./dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2015"
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}

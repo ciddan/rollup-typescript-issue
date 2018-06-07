@@ -1,0 +1,17 @@
+{
+  "name": "rollup-issue",
+  "version": "1.0.0",
+  "description": "Issue reproduction",
+  "main": "index.js",
+  "author": "Mikael Selander <ciddan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.9.1"
+  },
+  "dependencies": {
+    "rollup": "^0.60.1"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  }
+}
